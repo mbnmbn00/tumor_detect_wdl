@@ -1,0 +1,8 @@
+{
+    "workflow.read_files": [
+      "ERR1008135_1.fastq.gz",
+      "ERR1008135_2.fastq.gz",
+    ],
+    "workflow.assembly_file": "chromosome_7.fasta",
+    "workflow.host_path": "/Users/conejito/Documents/tumor_snp/data"
+  }
