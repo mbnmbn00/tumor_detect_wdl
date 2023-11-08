@@ -1,8 +1,6 @@
 {
-    "workflow.read_files": [
-      "ERR1008135_1.fastq.gz",
-      "ERR1008135_2.fastq.gz",
-    ],
-    "workflow.assembly_file": "chromosome_7.fasta",
-    "workflow.host_path": "/Users/conejito/Documents/tumor_snp/data"
-  }
+  "variant_calling.read1_file": "/Users/conejito/Documents/tumor_snp/data/ERR1008135_1.fastq.gz",
+  "variant_calling.read2_file": "/Users/conejito/Documents/tumor_snp/data/ERR1008135_2.fastq.gz",
+  "variant_calling.qced1_file": "ERR1008135_qced_1.fastq.gz",
+  "variant_calling.qced2_file": "ERR1008135_qced_2.fastq.gz"
+}

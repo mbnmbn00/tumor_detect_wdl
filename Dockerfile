@@ -10,9 +10,14 @@ WORKDIR /app
 # Install dependencies
 RUN apt-get update && \
     apt-get install \
-    -y minimap2 samtools python3-pip wget unzip openjdk-18-jre
+    -y samtools python3-pip wget unzip openjdk-18-jre
 
 RUN pip3 install biopython pandas
+
+# Download and install bwa-mem2
+RUN wget https://github.com/bwa-mem2/bwa-mem2/releases/download/v2.2.1/bwa-mem2-2.2.1_x64-linux.tar.bz2 && \
+    tar -xvjf bwa-mem2-2.2.1_x64-linux.tar.bz2
+ENV PATH=$PATH:/app/bwa-mem2-2.2.1_x64-linux
 
 
 # Download and install fastp
