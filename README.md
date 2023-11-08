@@ -8,7 +8,7 @@ The pipeline consists of:
 - WDL (Workflow Description Language)
 - Python scripts used for running programs
   - `run_fastp.py` (for read QC)
-  - `run_minimap2.py` (for read alignment)
+  - `run_bwa.py` (for read alignment)
   - `run_mutect2.py` (for finding tumor-related mutations)
 
 # Procedure
